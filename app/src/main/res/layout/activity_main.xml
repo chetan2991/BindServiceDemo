@@ -14,4 +14,16 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:id="@+id/city_temprature"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bound Service"
+        android:id="@+id/bound_service_button"
+        android:layout_below="@id/city_temprature"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UnBound Service"
+        android:id="@+id/unbound_service_button"
+        android:layout_below="@id/bound_service_button"/>
 </RelativeLayout>
